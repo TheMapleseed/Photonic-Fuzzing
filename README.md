@@ -89,48 +89,6 @@ The white paper is organized into the following sections:
    - Control theory derivations
    - Mathematical proofs
 
-## LaTeX Source Files
-
-The complete LaTeX source for this white paper is organized as follows:
-
-```
-quantum-fuzzing/
-├── quantum-fuzzing-consolidated.tex  # Main LaTeX document
-├── references.bib                    # Bibliography file
-└── latex-assembly-instructions.md    # Build instructions
-```
-
-## Building the Document
-
-This white paper requires a modern LaTeX distribution (TeXLive 2023+ or MacTeX 2023+) with the following packages:
-- amsmath, amssymb, amsfonts, amsthm
-- mathtools, physics
-- graphicx, tikz, pgfplots
-- algorithm, algpseudocode
-- hyperref, cleveref
-- siunitx
-
-To build the document:
-```bash
-pdflatex quantum-fuzzing-consolidated
-bibtex quantum-fuzzing-consolidated
-pdflatex quantum-fuzzing-consolidated
-pdflatex quantum-fuzzing-consolidated
-```
-
-## Citation
-
-If you reference this work in your research, please cite:
-
-```bibtex
-@article{quantum_laser_fuzzing_2024,
-  title={Mathematical Model for Quantum Diode Laser Fuzzing Systems in Photonic Quantum Computing},
-  author={Quantum Research Division},
-  journal={arXiv preprint arXiv:2024.XXXXX},
-  year={2024}
-}
-```
-
 ## Authors and Affiliations
 
 **Quantum Research Division**
